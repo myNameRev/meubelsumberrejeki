@@ -4,6 +4,15 @@
 
 @section('content')
 <!-- Hero Section -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ70CVEC40"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJ70CVEC40');
+</script>
 <div class="hero">
     <div class="container">
         <div class="row align-items-center">
